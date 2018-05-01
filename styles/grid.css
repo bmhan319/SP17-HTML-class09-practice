@@ -21,17 +21,17 @@ header {
 }
 
 /* Anything can be a grid! */
-/*.grid {
+.grid {
   display: flex;
   flex-wrap: wrap;
-}*/
+}
 
 /* telling css that columns shouldn't flex, but generic cells should */
-/*.grid > [class^="grid-"] { flex: none; }*/
-/*.grid > .grid-cell { flex: 1; }*/
+.grid > [class^="grid-"] { flex: none; }
+.grid > .grid-cell { flex: 1; }
 
 /* relative widths for each column size */
-/*.grid-col-1  { width: 8.3333%; }
+.grid-col-1  { width: 8.3333%; }
 .grid-col-2  { width: 16.6667%; }
 .grid-col-3  { width: 25%; }
 .grid-col-4  { width: 33.3333%; }
@@ -41,21 +41,21 @@ header {
 .grid-col-8  { width: 66.6667%; }
 .grid-col-9  { width: 75%; }
 .grid-col-10 { width: 83.3333%; }
-.grid-col-11 { width: 91.6667%; }*/
+.grid-col-11 { width: 91.6667%; }
 
 /* Adding gutters to the grid */
-/*.grid-guttered > [class^="grid-"] {
+.grid-guttered > [class^="grid-"] {
   padding: 1rem 1rem 0 0;
-}*/
+}
 
-/*.grid-guttered > [class^="grid-"]:last-child {
+.grid-guttered > [class^="grid-"]:last-child {
   padding-right: 0;
-}*/
+}
 
 /* make any element's content vertically & horizontally centered */
 /* this is great for links & buttons */
-/*.centered-content {
+.centered-content {
   display: flex;
   justify-content: center;
   align-items: center;
-}*/
+}
